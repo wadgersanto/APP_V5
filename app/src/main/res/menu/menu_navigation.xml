@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_inicio"
+            android:icon="@mipmap/ic_home"
+            android:title="@string/navigation_inicio"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/navigation_config_ip"
+            android:icon="@mipmap/ic_tranf"
+            android:title="Configurar ligação" />
+
+        <item
+            android:id="@+id/navigation_update_apk"
+            android:icon="@mipmap/ic_tranf"
+            android:title="Actualizar aplicação" />
+
+        <item
+            android:id="@+id/navigation_option3"
+            android:icon="@mipmap/ic_entrada"
+            android:title="Registo Produção"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/navigation_logout"
+            android:icon="@mipmap/ic_exit"
+            android:title="@string/navigation_logout" />
+    </group>
+</menu>

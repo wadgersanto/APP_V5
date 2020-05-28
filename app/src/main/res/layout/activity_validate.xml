@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/constraint_Layout"
+	android:background="@color/colorBackground"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+
+
+	<RadioGroup
+		android:id="@+id/radioGroup"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="10dp"
+		android:layout_marginTop="10dp"
+		android:visibility="gone"
+		android:layout_marginEnd="10dp"
+		android:orientation="horizontal"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent">
+
+		<RadioButton
+			android:id="@+id/radioButtonPos"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="RadioButton" />
+
+		<RadioButton
+			android:id="@+id/radioButtonNeg"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="RadioButton" />
+	</RadioGroup>
+
+	<ListView
+		android:id="@+id/listV"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_marginTop="10dp"
+		android:divider="@color/colorButton"
+		android:dividerHeight="4px"
+		android:visibility="gone"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+
+	<TextView
+		android:id="@+id/txtDescricao"
+		android:layout_width="230dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="5dp"
+		android:layout_marginTop="5dp"
+		android:layout_marginBottom="5dp"
+		android:textColor="@color/colorPrimaryDark"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		android:visibility="gone"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<TextView
+		android:id="@+id/txtObrigacao"
+		android:layout_width="173dp"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="5dp"
+		android:gravity="right"
+		android:textColor="@color/colorAccent"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		android:visibility="gone"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

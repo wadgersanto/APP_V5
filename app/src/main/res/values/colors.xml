@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#464646</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#35b5ff</color>
+    <color name="colorTextButton">#000000</color>
+    <color name="colorButton">#dedede</color>
+    <color name="colorObligation">#FF0000</color>
+    <color name="colorDone">#01DF01</color>
+    <color name="colorCheck">#F5BCA9</color>
+    <color name="colorBackground">#ffffff</color>
+    <color name="colorDivider">#ededed</color>
+    <color name="colorBorder">#ededed</color>
+
+</resources>

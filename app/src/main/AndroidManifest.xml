@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	package="gnotus.inoveplastika">
+
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="com.honeywell.decode.permission.DECODE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+	<application
+		android:allowBackup="true"
+		android:icon="@mipmap/ic_logo"
+		android:label="INOVEPLASTIKA"
+		android:roundIcon="@mipmap/ic_logo"
+		android:supportsRtl="true"
+		android:theme="@style/AppTheme"
+		tools:ignore="GoogleAppIndexingWarning"
+		tools:replace="android:label">
+		<activity android:name=".QualityControl.QualityActivity"></activity>
+		<activity android:name=".RececaoEncomenda.ReceptionActivity" />
+		<activity
+			android:name=".SplashActivity"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait"
+			android:theme="@style/SplashTheme">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".LoginActivity"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait" />
+		<activity
+			android:name=".ConfigsActivity"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait" />
+		<activity
+			android:name=".MainActivity_Lista"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait" />
+		<activity
+			android:name=".Logistica.TransferenciaActivity"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".InvlocActivity"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".Producao.EntradaProducaoActivity"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".EditActivity"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="adjustPan" />
+		<activity
+			android:name=".SMenuLista"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait" />
+		<activity
+			android:name=".Producao.IniciarOfActivity"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".InvOfActivity"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".ConsultaStocksActivity"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="adjustPan" />
+		<activity
+			android:name=".InventarioActivity"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="adjustPan" />
+		<activity
+			android:name=".PecasNokActivity"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="adjustPan" />
+		<activity
+			android:name=".PickingActivity"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="adjustPan" />
+		<activity
+			android:name=".Suporte.InserirPatActivity"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden|adjustPan" />
+		<activity
+			android:name=".Suporte.ProcessarPatActivity"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".Producao.PedidoAbastProdActivity"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden" />
+		<activity
+			android:name=".Producao.IniciarTurnoActivity"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="adjustPan" />
+		<activity android:name=".ComponentesNOK.ComponentesNOKActivity" />
+		<activity android:name=".PickingBoxes.PickingBoxesActivity" />
+	</application>
+
+</manifest>

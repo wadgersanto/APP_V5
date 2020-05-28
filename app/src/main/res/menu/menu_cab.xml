@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+     <item
+         android:id="@+id/menu_item_search"
+         android:icon="@drawable/ic_search_green_24dp"
+         android:title="Item"
+         android:visible="false"
+         app:showAsAction="always" />
+     <item
+         android:id="@+id/menu_item_refresh"
+         android:icon="@mipmap/ic_refresh"
+         android:title="actualizar"
+         android:visible="false"
+         android:titleCondensed="Apgar"
+         app:showAsAction="always|withText"></item>
+
+    <item
+        android:title="Recuperar carga PDA"
+        android:id="@+id/menu_item_list"
+        android:icon="@mipmap/ic_list">
+        <menu></menu>
+    </item>
+
+
+ </menu>

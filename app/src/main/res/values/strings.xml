@@ -1,0 +1,121 @@
+<resources>
+	<string name="app_name">Terminal PHC</string>
+
+
+	<!-- Actividade Configurações -->
+
+	<string name="config_editText_hint_caminho">Caminho do serviço</string>
+	<string name="config_botao_teste">Testar ligação</string>
+	<string name="config_botao_config">Guardar configuração</string>
+	<string name="config_toolbar_titulo">Configurações</string>
+	<string name="config_editText_preencher_caminho">Preencher caminho</string>
+	<string name="config_editText_caminho_invalido">Caminho inválido</string>
+	<string name="config_editText_caminho_por_validar">Valide o caminho</string>
+
+
+	<!-- Actividade Login -->
+
+	<string name="login_botao_entrar">Entrar</string>
+	<string name="login_botao_sair">Sair</string>
+
+	<!-- Menu navegação -->
+
+	<string name="navigation_inicio">Inicio</string>
+	<string name="navigation_carga">Carga</string>
+	<string name="navigation_descarga">Descarga</string>
+	<string name="navigation_logout">Sair</string>
+	<string name="drawer_open">Abrir</string>
+	<string name="drawer_close">Fechar</string>
+
+
+	<!-- Actividade Inicio -->
+
+	<string name="inicio_toolbar_titulo">Inicio</string>
+
+	<!-- Actividade Carga -->
+
+	<string name="carga_toolbar_titulo">Carga</string>
+	<string name="carga_titulo_localizacao">Localização</string>
+	<string name="carga_titulo_codigo">Ler código de barras</string>
+	<string name="carga_titulo_lista_carga">Lista de carga</string>
+	<string name="carga_mensagem_erro_lerzona">Ler Zona</string>
+	<string name="carga_editText_hint_codigo">Ler código</string>
+	<string name="carga_editText_ler_codigo">Ler código</string>
+	<string name="carga_toggle_on">Adicionar</string>
+	<string name="carga_toggle_off">Remover</string>
+	<string name="carga_button_finalizar">Finalizar carga</string>
+	<string name="carga_editText_erro_vazio">Artigo não existe</string>
+
+
+	<string name="carga_list_legenda_ref_lote">Referência\nLote</string>
+	<string name="carga_list_legenda_desc_obs">Descrição\nObservações</string>
+	<string name="carga_list_legenda_qt_un">Qt/Un</string>
+	<string name="carga_list_legenda_localizacao">Armazem/Zona\nAlvéolo</string>
+
+
+	<!-- Alert Dialog -->
+
+	<string name="alert_mensagem_sem_internet">Verifique se o dispositivo tem ligação à rede</string>
+	<string name="alert_mensagem_sem_items">Nenhum item carregado</string>
+
+
+	<!-- Alert Dialog Carga-->
+
+	<string name="alert_erro">Erro</string>
+	<string name="alert_mensagem_carga_stock">Qt. lida superior ao stock disponivel</string>
+	<string name="alert_erro_sem_internet">Sem ligação à Internet</string>
+
+
+	<!-- Progress dialog Dialog-->
+
+	<string name="progressdialog_mensagem">Aguarde...</string>
+
+	<!-- Actividade Descarga -->
+
+
+	<string name="descarga_toolbar_titulo">Descarga</string>
+	<string name="descarga_titulo_lista_descarga">Lista de descarga</string>
+
+	<string name="descarga_editText_hint_codigo">Ler código</string>
+	<string name="descarga_button_submeter">Submeter</string>
+
+	<string name="descarga_armazem_legenda">Armazem:</string>
+	<string name="descarga_zona_legenda">Zona:</string>
+	<string name="descarga_alveolo_legenda">Alvéolo:</string>
+	<string name="descarga_mensagem_vazio">S/I</string>
+
+
+	<string name="descarga_editText_ler_codigo">Ler código</string>
+	<string name="descarga_editText_ler_codigo_erro">Artigo não corresponde aos artigos carregados</string>
+	<string name="descarga_editText_ler_zona_erro">Ler zona</string>
+	<string name="descarga_editText_ler_codigo_erro_sintaxe">Sintaxe de código lido errado</string>
+
+
+	<string name="descarga_list_legenda_ref">Ref</string>
+	<string name="descarga_list_legenda_lote">Lote</string>
+	<string name="descarga_list_legenda_desc">Descrição</string>
+	<string name="descarga_list_legenda_obs">Obs</string>
+	<string name="descarga_list_legenda_qt">Qt</string>
+
+
+	<!-- Alert Dialog Descarga-->
+
+	<string name="alert_mensagem_descarga_sem_items_erro">Nenhum item carregado</string>
+	<string name="alert_mensagem_descarga_sem_items_mensagem">Pretende abrir a funcionalidade de carga?</string>
+	<string name="alert_mensagem_descarga_sem_items_positivo">Sim</string>
+	<string name="alert_mensagem_descarga_sem_items_negativo">Não</string>
+
+	<string name="alert_mensagem_descarga_sucesso">Sucesso</string>
+	<string name="alert_mensagem_descarga_erro">Erro</string>
+	<string name="alert_mensagem_descarga_sucesso_mensagem">Localização atribuida com sucesso</string>
+	<string name="alert_mensagem_descarga_erro_mensagem_doc">Ocorreu um erro na criação do documento</string>
+	<string name="alert_mensagem_descarga_erro_mensagem_linha">Ocorreu um erro no registo da linha</string>
+	<string name="alert_mensagem_descarga_erro_lista_vazia">Nenhum item selecionado para descarregar</string>
+
+	<string name="ws_response_empty">"\"[]\""</string>
+
+	<!-- TODO: Remove or change this placeholder text -->
+	<string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

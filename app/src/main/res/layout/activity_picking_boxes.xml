@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/colorButton"
+	tools:context=".PickingBoxes.PickingBoxesActivity">
+
+
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/toolbarPickingBoxs"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="?attr/colorPrimary"
+		android:minHeight="?attr/actionBarSize"
+		android:theme="?attr/actionBarTheme"
+		app:layout_constraintBottom_toTopOf="@+id/constraintLayoutTitulo"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/constraintLayoutTitulo"
+		android:layout_width="match_parent"
+		android:layout_height="32dp"
+		android:layout_marginStart="10dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginEnd="10dp"
+		android:background="@color/colorBackground"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/toolbarPickingBoxs">
+
+
+		<TextView
+			android:id="@+id/txtconstraintLayoutTitulo"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:text="txtconstraintLayoutTitulo"
+			android:textColor="@color/colorPrimaryDark"
+			android:textSize="16dp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="97dp" />
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/constraintLayout1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="10dp"
+
+		android:layout_marginTop="10dp"
+		android:layout_marginEnd="10dp"
+		android:background="@drawable/borderlinearpreto"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/constraintLayoutTitulo">
+
+
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/constraintLayout1a"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:layout_constraintBottom_toTopOf="@+id/constraintLayout1b"
+			app:layout_constraintTop_toTopOf="parent">
+
+			<TextView
+				android:id="@+id/TextViewa1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="5dp"
+				android:text="TextViewa1"
+				android:textColor="@color/colorPrimaryDark"
+				android:textSize="16dp"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="parent" />
+
+			<TextView
+				android:id="@+id/TextViewa2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+
+				android:layout_marginEnd="5dp"
+				android:layout_marginBottom="5dp"
+				android:text="TextViewa2"
+				android:textColor="@color/colorPrimaryDark"
+				android:textSize="16dp"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintTop_toTopOf="parent" />
+		</android.support.constraint.ConstraintLayout>
+
+		<android.support.constraint.ConstraintLayout
+			android:id="@+id/constraintLayout1b"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="@color/colorPrimaryDark"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/constraintLayout1a">
+
+			<TextView
+				android:id="@+id/TextViewb1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="5dp"
+				android:layout_marginTop="5dp"
+				android:layout_marginBottom="5dp"
+				android:text="TextViewb1"
+				android:textColor="@color/colorPrimaryDark"
+				android:textSize="16dp"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="parent" />
+
+			<TextView
+				android:id="@+id/TextViewb2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:layout_marginEnd="5dp"
+				android:layout_marginBottom="5dp"
+				android:text="TextViewb2"
+				android:textColor="@color/colorPrimaryDark"
+				android:textSize="16dp"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintTop_toTopOf="parent" />
+		</android.support.constraint.ConstraintLayout>
+
+	</android.support.constraint.ConstraintLayout>
+
+
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/constraintLayoutC"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="10dp"
+		android:layout_marginTop="5dp"
+		android:layout_marginEnd="10dp"
+		android:layout_marginBottom="5dp"
+		android:background="@color/colorBackground"
+		app:layout_constraintBottom_toTopOf="@+id/lstView"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/constraintLayout1">
+
+
+		<TextView
+			android:id="@+id/TextViewC1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="5dp"
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="5dp"
+			android:text="TextViewC1"
+			android:gravity="left"
+			android:textColor="@color/colorPrimaryDark"
+			android:textSize="16dp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<TextView
+			android:id="@+id/TextViewC2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="209dp"
+			android:layout_marginTop="5dp"
+			android:layout_marginEnd="5dp"
+			android:layout_marginBottom="5dp"
+			android:gravity="right"
+			android:text="TextViewC2"
+			android:textColor="@color/colorPrimaryDark"
+			android:textSize="16dp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toEndOf="@+id/TextViewC1"
+			app:layout_constraintTop_toTopOf="parent" />
+	</android.support.constraint.ConstraintLayout>
+
+	<ListView
+		android:id="@+id/lstView"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginStart="10dp"
+		android:layout_marginTop="5dp"
+		android:layout_marginEnd="10dp"
+		android:layout_marginBottom="10dp"
+		android:textSize="16dp"
+		android:background="@color/colorBackground"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/constraintLayoutC">
+
+
+	</ListView>
+
+	<FrameLayout
+		android:id="@+id/fragmentBoxesAvailableForPicking"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_marginStart="10dp"
+		android:layout_marginTop="8dp"
+		android:layout_marginEnd="10dp"
+		android:visibility="gone"
+		android:layout_marginBottom="10dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/constraintLayoutC">
+
+	</FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>
